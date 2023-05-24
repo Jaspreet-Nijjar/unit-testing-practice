@@ -8,4 +8,8 @@ describe('reverse string', () => {
   it('should return a string', () => {
     expect(typeof reverseString('hello')).toEqual('string');
   });
+
+  it('should return the reverse string', () => {
+    expect(reverseString('hello')).toEqual('olleh');
+  });
 });
